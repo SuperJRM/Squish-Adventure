@@ -29,7 +29,6 @@ class Load extends Phaser.Scene {
     }
 
     create() {
-        //this.load.audio(`jumpSFX`, `assets/phaserUp3.ogg`);
         this.anims.create({
             key: 'walk',
             frames: this.anims.generateFrameNames('platformer_characters', {
