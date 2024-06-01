@@ -213,7 +213,7 @@ class Platformer extends Phaser.Scene {
 
         if(my.sprite.player.body.blocked.down && Phaser.Input.Keyboard.JustDown(cursors.up)) {
             my.sprite.player.body.setVelocityY(this.JUMP_VELOCITY);
-            this.sound.play(`jumpSFX`);
+            //this.sound.play("jumpSFX");
             //jumpMusic.play();
         }
 
